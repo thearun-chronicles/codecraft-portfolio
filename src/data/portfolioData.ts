@@ -103,7 +103,7 @@ export const PORTFOLIO_DATA = {
       company: "CAFS Infotech",
       role: "Associate Software Engineer",
       location: "Chennai, India",
-      period: "2023 - Present (2+ Years)",
+      period: "2024 - Present (2+ Years)",
       employmentType: "Full-Time",
       award: "Discovery of the Year Award – 2024–2025",
       summary:
@@ -473,7 +473,7 @@ export const PORTFOLIO_DATA = {
     {
       title: "Full Stack & PHP / CodeIgniter Development",
       issuer: "Technical Training & CAFS Product Suite",
-      date: "2023",
+      date: "2024",
       focus: "MVC Architecture, RESTful API design, database connectivity, and enterprise application deployment."
     },
     {

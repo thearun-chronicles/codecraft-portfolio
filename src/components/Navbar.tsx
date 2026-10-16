@@ -59,7 +59,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenResume }) => {
           className="text-xl font-bold tracking-tight text-white hover:text-blue-400 transition-colors font-display flex items-center gap-2"
         >
           <span className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-sm font-black shadow-md shadow-blue-500/30">
-            A
+            ཧོ
           </span>
           <span className="text-lg tracking-normal font-semibold">Arun Raj R</span>
         </a>
