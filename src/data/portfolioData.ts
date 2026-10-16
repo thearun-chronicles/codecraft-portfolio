@@ -11,7 +11,7 @@ export interface Project {
   clientBadge?: string;
   featured: boolean;
   image: string;
-  playStoreUrl?: string;
+  playStoreUrl?: string;         
   versions?: string;
   overview: string;
   challenge: string;
