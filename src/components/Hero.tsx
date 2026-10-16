@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import portraitImage from "../assets/images/arunraj_engineer_portrait_1790272672678.jpg";
 import {
   ArrowRight,
   FileText,
@@ -170,7 +171,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                 {/* Visual Image with Styled Fallback */}
                 <div className="relative aspect-square rounded-xl overflow-hidden bg-slate-800 border border-slate-700/60">
                   <img
-                    src="/src/assets/images/arunraj_engineer_portrait_1790272672678.jpg"
+                    src={portraitImage}
                     alt="Arun Raj R - Associate Software Engineer at CAFS Infotech"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500"

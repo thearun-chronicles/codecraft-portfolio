@@ -1,3 +1,7 @@
+import smartHrmsMobileImage from "../assets/images/smart_hrms_mockup_1790272686242.png";
+import smartHrmsWebImage from "../assets/images/smart_hrms_web_mockup_1790272686242.png";
+import collmanHrmsImage from "../assets/images/collman_hrms_mockup_1790272713206.png";
+import enterpriseCrmImage from "../assets/images/enterprise_crm_mockup_1790272700305.png";
 export interface Project {
   id: string;
   title: string;
@@ -157,7 +161,7 @@ export const PORTFOLIO_DATA = {
       categoryLabel: "HRMS Mobile Backend",
       clientBadge: "Live on Google Play Store",
       featured: true,
-      image: "/src/assets/images/smart_hrms_mockup_1790272686242.png",
+      image: smartHrmsMobileImage,
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.cafsinfotech.smarthrms&hl=en_IN",
       overview:
         "Developed and maintained high-performance backend REST APIs powering the official Smart HRMS mobile application on Google Play Store, serving thousands of active corporate employees.",
@@ -194,7 +198,7 @@ export const PORTFOLIO_DATA = {
       categoryLabel: "Enterprise Web HRMS",
       clientBadge: "Versions 7.2, 8.3 & 8.5",
       featured: true,
-      image: "/src/assets/images/smart_hrms_web_mockup_1790272686242.png",
+      image: smartHrmsWebImage,
       versions: "Versions: 7.2, 8.3 & 8.5",
       overview:
         "Core product development, client customization, version upgrades, and migration for Smart HRMS across major releases (v7.2, v8.3, and v8.5) powering tier-1 organizations.",
@@ -242,7 +246,7 @@ export const PORTFOLIO_DATA = {
       categoryLabel: "HRMS Mobile Backend",
       clientBadge: "Live on Google Play Store",
       featured: true,
-      image: "/src/assets/images/collman_hrms_mockup_1790272713206.png",
+      image: collmanHrmsImage,
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.cafsinfotech.collman&hl=en_IN",
       overview:
         "Developed and maintained REST APIs supporting mobile HRMS operations for the official Collman HRMS application on Google Play, providing seamless employee attendance synchronization.",
@@ -278,7 +282,7 @@ export const PORTFOLIO_DATA = {
       categoryLabel: "Enterprise CRM",
       clientBadge: "Client: National Travels",
       featured: true,
-      image: "/src/assets/images/enterprise_crm_mockup_1790272700305.png",
+      image: enterpriseCrmImage,
       overview:
         "Developed and maintained a specialized CRM web application for National Travels covering customer management, travel booking lifecycle tracking, and operational workflows.",
       challenge:
